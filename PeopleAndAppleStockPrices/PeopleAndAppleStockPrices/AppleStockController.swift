@@ -62,17 +62,16 @@ extension AppleStockController: UITableViewDataSource   {
         print(arrayOfFullDate)
         
         var sum = 0.0
-        var average = 0.0
-        var denominator = stocks[section].count
+        let denominator = stocks[section].count
         for element in stocks[section] {
             sum += element.open
         }
         
-        average = sum/Double(denominator)
+        var average = sum/Double(denominator)
         
         
         
-        return "\(stocks[section].first?.month[arrayOfFullDate[1]] ?? "") - \(arrayOfFullDate[0])"
+        return "\(stocks[section].first?.month[arrayOfFullDate[1]] ?? "") - \(arrayOfFullDate[0]), \(average)"
     }
 }
 
