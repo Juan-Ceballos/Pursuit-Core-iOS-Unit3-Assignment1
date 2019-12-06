@@ -67,11 +67,9 @@ extension AppleStockController: UITableViewDataSource   {
             sum += element.open
         }
         
-        var average = sum/Double(denominator)
+        let average = sum/Double(denominator)
         
-        
-        
-        return "\(stocks[section].first?.month[arrayOfFullDate[1]] ?? "") - \(arrayOfFullDate[0]), \(average)"
+        return "\(stocks[section].first?.month[arrayOfFullDate[1]] ?? "") - \(arrayOfFullDate[0]), Average:  $\(String(format: "%.2f", average))"
     }
 }
 
