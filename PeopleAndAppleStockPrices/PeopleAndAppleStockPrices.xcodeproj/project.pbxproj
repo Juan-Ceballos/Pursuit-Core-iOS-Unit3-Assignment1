@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4C1E8923986DA30008B9D0 /* UserInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C1E8823986DA30008B9D0 /* UserInfoTests.swift */; };
+		3E4C1E912398B3550008B9D0 /* UserProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C1E902398B3550008B9D0 /* UserProfiles.swift */; };
+		3E4C1E932398B8180008B9D0 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C1E922398B8180008B9D0 /* Bundle+Extensions.swift */; };
+		3E4C1E952399819F0008B9D0 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C1E942399819F0008B9D0 /* UsersViewController.swift */; };
+		3E4C1E972399B6AC0008B9D0 /* DetailedUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C1E962399B6AB0008B9D0 /* DetailedUserController.swift */; };
+		3E4C1E992399F7EE0008B9D0 /* AppleStockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C1E982399F7EE0008B9D0 /* AppleStockData.swift */; };
+		3E4C1E9B2399F8730008B9D0 /* ApplesStockInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C1E9A2399F8730008B9D0 /* ApplesStockInfoTests.swift */; };
+		3E4C1E9D239A16DE0008B9D0 /* AppleStockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C1E9C239A16DE0008B9D0 /* AppleStockController.swift */; };
 		577E5BEC21BA8BA10083EB97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E5BEB21BA8BA10083EB97 /* AppDelegate.swift */; };
-		577E5BEE21BA8BA10083EB97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E5BED21BA8BA10083EB97 /* ViewController.swift */; };
 		577E5BF121BA8BA10083EB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577E5BEF21BA8BA10083EB97 /* Main.storyboard */; };
 		577E5BF321BA8BA20083EB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577E5BF221BA8BA20083EB97 /* Assets.xcassets */; };
 		577E5BF621BA8BA20083EB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577E5BF421BA8BA20083EB97 /* LaunchScreen.storyboard */; };
@@ -16,10 +23,29 @@
 		577E5C0121BA8C5C0083EB97 /* applstockinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 577E5C0021BA8C5C0083EB97 /* applstockinfo.json */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3E4C1E8B23986DA30008B9D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577E5BE021BA8BA10083EB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577E5BE721BA8BA10083EB97;
+			remoteInfo = PeopleAndAppleStockPrices;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3E4C1E8623986DA30008B9D0 /* PeopleAndAppleStockPricesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeopleAndAppleStockPricesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4C1E8823986DA30008B9D0 /* UserInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTests.swift; sourceTree = "<group>"; };
+		3E4C1E8A23986DA30008B9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4C1E902398B3550008B9D0 /* UserProfiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfiles.swift; sourceTree = "<group>"; };
+		3E4C1E922398B8180008B9D0 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		3E4C1E942399819F0008B9D0 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		3E4C1E962399B6AB0008B9D0 /* DetailedUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedUserController.swift; sourceTree = "<group>"; };
+		3E4C1E982399F7EE0008B9D0 /* AppleStockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStockData.swift; sourceTree = "<group>"; };
+		3E4C1E9A2399F8730008B9D0 /* ApplesStockInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplesStockInfoTests.swift; sourceTree = "<group>"; };
+		3E4C1E9C239A16DE0008B9D0 /* AppleStockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStockController.swift; sourceTree = "<group>"; };
 		577E5BE821BA8BA10083EB97 /* PeopleAndAppleStockPrices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleAndAppleStockPrices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		577E5BEB21BA8BA10083EB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		577E5BED21BA8BA10083EB97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		577E5BF021BA8BA10083EB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		577E5BF221BA8BA20083EB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		577E5BF521BA8BA20083EB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3E4C1E8323986DA30008B9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		577E5BE521BA8BA10083EB97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +72,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E4C1E8723986DA30008B9D0 /* PeopleAndAppleStockPricesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C1E8823986DA30008B9D0 /* UserInfoTests.swift */,
+				3E4C1E9A2399F8730008B9D0 /* ApplesStockInfoTests.swift */,
+				3E4C1E8A23986DA30008B9D0 /* Info.plist */,
+			);
+			path = PeopleAndAppleStockPricesTests;
+			sourceTree = "<group>";
+		};
 		577E5BDF21BA8BA10083EB97 = {
 			isa = PBXGroup;
 			children = (
 				577E5BEA21BA8BA10083EB97 /* PeopleAndAppleStockPrices */,
+				3E4C1E8723986DA30008B9D0 /* PeopleAndAppleStockPricesTests */,
 				577E5BE921BA8BA10083EB97 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				577E5BE821BA8BA10083EB97 /* PeopleAndAppleStockPrices.app */,
+				3E4C1E8623986DA30008B9D0 /* PeopleAndAppleStockPricesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +103,13 @@
 		577E5BEA21BA8BA10083EB97 /* PeopleAndAppleStockPrices */ = {
 			isa = PBXGroup;
 			children = (
-				577E5BED21BA8BA10083EB97 /* ViewController.swift */,
 				577E5BEF21BA8BA10083EB97 /* Main.storyboard */,
+				3E4C1E902398B3550008B9D0 /* UserProfiles.swift */,
+				3E4C1E942399819F0008B9D0 /* UsersViewController.swift */,
+				3E4C1E962399B6AB0008B9D0 /* DetailedUserController.swift */,
+				3E4C1E982399F7EE0008B9D0 /* AppleStockData.swift */,
+				3E4C1E9C239A16DE0008B9D0 /* AppleStockController.swift */,
+				3E4C1E922398B8180008B9D0 /* Bundle+Extensions.swift */,
 				577E5BFD21BA8BE20083EB97 /* Supporting Files */,
 				577E5BF721BA8BA20083EB97 /* Info.plist */,
 			);
@@ -89,6 +139,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3E4C1E8523986DA30008B9D0 /* PeopleAndAppleStockPricesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4C1E8F23986DA30008B9D0 /* Build configuration list for PBXNativeTarget "PeopleAndAppleStockPricesTests" */;
+			buildPhases = (
+				3E4C1E8223986DA30008B9D0 /* Sources */,
+				3E4C1E8323986DA30008B9D0 /* Frameworks */,
+				3E4C1E8423986DA30008B9D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4C1E8C23986DA30008B9D0 /* PBXTargetDependency */,
+			);
+			name = PeopleAndAppleStockPricesTests;
+			productName = PeopleAndAppleStockPricesTests;
+			productReference = 3E4C1E8623986DA30008B9D0 /* PeopleAndAppleStockPricesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		577E5BE721BA8BA10083EB97 /* PeopleAndAppleStockPrices */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 577E5BFA21BA8BA20083EB97 /* Build configuration list for PBXNativeTarget "PeopleAndAppleStockPrices" */;
@@ -112,10 +180,14 @@
 		577E5BE021BA8BA10083EB97 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Pursuit;
 				TargetAttributes = {
+					3E4C1E8523986DA30008B9D0 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 577E5BE721BA8BA10083EB97;
+					};
 					577E5BE721BA8BA10083EB97 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -135,11 +207,19 @@
 			projectRoot = "";
 			targets = (
 				577E5BE721BA8BA10083EB97 /* PeopleAndAppleStockPrices */,
+				3E4C1E8523986DA30008B9D0 /* PeopleAndAppleStockPricesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3E4C1E8423986DA30008B9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		577E5BE621BA8BA10083EB97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -155,16 +235,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3E4C1E8223986DA30008B9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C1E8923986DA30008B9D0 /* UserInfoTests.swift in Sources */,
+				3E4C1E9B2399F8730008B9D0 /* ApplesStockInfoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		577E5BE421BA8BA10083EB97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577E5BEE21BA8BA10083EB97 /* ViewController.swift in Sources */,
+				3E4C1E932398B8180008B9D0 /* Bundle+Extensions.swift in Sources */,
+				3E4C1E9D239A16DE0008B9D0 /* AppleStockController.swift in Sources */,
+				3E4C1E952399819F0008B9D0 /* UsersViewController.swift in Sources */,
+				3E4C1E972399B6AC0008B9D0 /* DetailedUserController.swift in Sources */,
+				3E4C1E992399F7EE0008B9D0 /* AppleStockData.swift in Sources */,
+				3E4C1E912398B3550008B9D0 /* UserProfiles.swift in Sources */,
 				577E5BEC21BA8BA10083EB97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E4C1E8C23986DA30008B9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577E5BE721BA8BA10083EB97 /* PeopleAndAppleStockPrices */;
+			targetProxy = 3E4C1E8B23986DA30008B9D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		577E5BEF21BA8BA10083EB97 /* Main.storyboard */ = {
@@ -186,6 +288,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3E4C1E8D23986DA30008B9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UA5RNM528;
+				INFOPLIST_FILE = PeopleAndAppleStockPricesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.pursuit.PeopleAndAppleStockPricesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeopleAndAppleStockPrices.app/PeopleAndAppleStockPrices";
+			};
+			name = Debug;
+		};
+		3E4C1E8E23986DA30008B9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UA5RNM528;
+				INFOPLIST_FILE = PeopleAndAppleStockPricesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.pursuit.PeopleAndAppleStockPricesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeopleAndAppleStockPrices.app/PeopleAndAppleStockPrices";
+			};
+			name = Release;
+		};
 		577E5BF821BA8BA20083EB97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -341,6 +485,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3E4C1E8F23986DA30008B9D0 /* Build configuration list for PBXNativeTarget "PeopleAndAppleStockPricesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C1E8D23986DA30008B9D0 /* Debug */,
+				3E4C1E8E23986DA30008B9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		577E5BE321BA8BA10083EB97 /* Build configuration list for PBXProject "PeopleAndAppleStockPrices" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
