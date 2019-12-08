@@ -10,6 +10,7 @@ import Foundation
 
 struct Stocks: Decodable    {
     let date: String
+    let close: Double
     let open: Double
     let label: String
     

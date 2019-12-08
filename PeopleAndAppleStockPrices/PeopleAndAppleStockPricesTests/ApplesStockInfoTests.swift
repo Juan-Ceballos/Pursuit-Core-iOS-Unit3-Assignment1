@@ -20,6 +20,21 @@ class ApplesStockInfoTests: XCTestCase {
         XCTAssertNotNil(data)
     }
     
+    func testStockData()    {
+        let stock = getstockData()
+        guard let stocks = stock.first else {return}
+        XCTAssertGreaterThan(stock.count, 0)
+        XCTAssertGreaterThan(stocks.count, 0)
+    }
+    
+    func testStockFormat()  {
+        let stock = getstockData()
+        guard let stocks = stock.first else {return}
+        let expectedFirstValue = 170.64
+        
+        XCTAssertEqual(expectedFirstValue, stocks.first?.close)
+    }
+    
 }
 
 extension ApplesStockInfoTests  {
@@ -27,5 +42,11 @@ extension ApplesStockInfoTests  {
     func getData() -> Data  {
         let data = Bundle.readRawJSONData(filename: filename, ext: ext)
         return data
+    }
+    
+    func getstockData() -> [[Stocks]]   {
+        
+        let stock = Stocks.getStocks()
+        return stock
     }
 }
